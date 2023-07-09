@@ -27,6 +27,7 @@ function simpleMultiplication(number) {
 ## Education
 
 * Belarusian State University of Food and Chemical Technologies
+    * automation ingeneer of food industry
 
 ## Languages
 
