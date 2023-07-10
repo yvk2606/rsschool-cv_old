@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #E2E8E4;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #006C84;
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-inline-start: 0;
+}
+.nav-link {
+    padding: 0 25px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #e2e8e4;
+    transition: .3s;
+}
+.nav-link:hover {
+    color: #000;
+}
+.section-title {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 30px;
+}
+.footer {
+    background-color: #6EB5C0;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s;
+}
+.footer a:hover {
+    color: #e2e8e4;
+}
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rs-school-logo {
+    width: 100px;
+}
