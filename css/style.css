@@ -4,9 +4,6 @@
 html {
     scroll-behavior: smooth;
 }
-.header, .main, .footer {
-    border: 1px solid red;
-}
 body {
     min-height: 100vh;
     margin: 0;
@@ -18,10 +15,14 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    background-color: #E2E8E4;
 }
 .container {
     max-width: 1440px;
     margin: 0 auto;
+}
+.header {
+    background-color: #006C84;
 }
 .nav-list {
     display: flex;
@@ -35,18 +36,31 @@ body {
     line-height: 50px;
     text-decoration: none;
     font-size: 30px;
-    color: #000;
+    color: #e2e8e4;
     transition: .3s;
 }
 .nav-link:hover {
-    color: #b6b3fa;
+    color: #000;
 }
 .section-title {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #bcbcbc;
+    padding-top: 30px;
+}
+.footer {
+    background-color: #6EB5C0;
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer a {
+    text-decoration: none;
+    color: #000;
+    transition: .3s;
+}
+.footer a:hover {
+    color: #e2e8e4;
 }
 .footer .container{
     display: flex;
