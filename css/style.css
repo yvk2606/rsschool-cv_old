@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 .header, .main, .footer {
     border: 1px solid red;
 }
@@ -11,6 +14,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 .container {
     max-width: 1440px;
@@ -20,4 +25,17 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
+}
+.nav-link {
+    padding: 0 25px;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+    transition: .3s;
+}
+.nav-link:hover {
+    color: #b6b3fa;
+    text-decoration: underline;
 }
