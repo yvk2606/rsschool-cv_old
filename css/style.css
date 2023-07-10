@@ -47,4 +47,12 @@ body {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #bcbcbc;
-  }
+}
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rs-school-logo {
+    width: 100px;
+}
